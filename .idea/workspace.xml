@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ef30eb-c56b-47b9-9463-9bfe04b9a254" name="Changes" comment="feat: implement cd and pwd command along with error handling">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c1ef30eb-c56b-47b9-9463-9bfe04b9a254" name="Changes" comment="feat: implement cd and pwd command along with error handling" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740689262122</updated>
       <workItem from="1740689263181" duration="530000" />
-      <workItem from="1740689815026" duration="6623000" />
+      <workItem from="1740689815026" duration="6928000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;initial">
       <option name="closed" value="true" />
