@@ -1,6 +1,7 @@
 package com.ccsh;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -18,12 +19,29 @@ public class SimpleShell {
                 if (command.equals("exit")) {
                     System.out.println("Exiting shell...");
                     break;
+                } else if (command.equals("pwd")) {
+                    System.out.println(System.getProperty("user.dir"));
+                    continue;
+                } else if (command.startsWith("cd")) {
+                    String newDirectory = command.substring(3).trim();
+                    changeDirectory(newDirectory);
+                    continue;
                 }
 
                 executeCommand(command);
             } catch (IOException e) {
                 System.err.println("Error reading input: " + e.getMessage());
             }
+        }
+    }
+
+    private static void changeDirectory(String newDirectory) {
+        File dir = new File(newDirectory);
+        if (dir.exists() && dir.isDirectory()) {
+            System.setProperty("user.dir", dir.getAbsolutePath());
+            System.out.println("Changed directory to: " + dir.getAbsolutePath());
+        } else {
+            System.err.println("Error changing directory: " + newDirectory + " does not exist or is not a directory.");
         }
     }
 
