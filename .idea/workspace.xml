@@ -26,7 +26,7 @@
   "keyToString": {
     "Application.SimpleShell.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740689262122</updated>
       <workItem from="1740689263181" duration="530000" />
-      <workItem from="1740689815026" duration="6928000" />
+      <workItem from="1740689815026" duration="7369000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;initial">
       <option name="closed" value="true" />
