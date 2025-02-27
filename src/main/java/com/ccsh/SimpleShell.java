@@ -26,7 +26,17 @@ public class SimpleShell {
 
     private static void executeCommand(String command) {
         try {
-            Process process = Runtime.getRuntime().exec(command);
+            ProcessBuilder processBuilder = new ProcessBuilder();
+            processBuilder.command("cmd.exe", "/c", command);
+            Process process = processBuilder.start();
+
+            // read output from the command
+            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+//            wait for command to finish
             process.waitFor();
         } catch (IOException | InterruptedException e) {
             System.err.println("Error executing command: " + e.getMessage());

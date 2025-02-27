@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ef30eb-c56b-47b9-9463-9bfe04b9a254" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ccsh/SimpleShell.java" afterDir="false" />
+    <list default="true" id="c1ef30eb-c56b-47b9-9463-9bfe04b9a254" name="Changes" comment="shell executes exit command">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ccsh/SimpleShell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ccsh/SimpleShell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +56,44 @@
       <option name="presentableId" value="Default" />
       <updated>1740689262122</updated>
       <workItem from="1740689263181" duration="530000" />
-      <workItem from="1740689815026" duration="1446000" />
+      <workItem from="1740689815026" duration="1807000" />
     </task>
+    <task id="LOCAL-00001" summary="&#10;initial">
+      <option name="closed" value="true" />
+      <created>1740691322822</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740691322822</updated>
+    </task>
+    <task id="LOCAL-00002" summary="shell executes exit command">
+      <option name="closed" value="true" />
+      <created>1740691378015</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740691378015</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&#10;initial" />
+    <MESSAGE value="shell executes exit command" />
+    <option name="LAST_COMMIT_MESSAGE" value="shell executes exit command" />
   </component>
 </project>
