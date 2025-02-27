@@ -14,12 +14,15 @@ public class SimpleShell {
             try {
                 command = reader.readLine().trim();
                 if (command.isEmpty()) continue;
+
                 if (command.equals("exit")) {
+                    System.out.println("Exiting shell...");
                     break;
                 }
+
                 executeCommand(command);
             } catch (IOException e) {
-                e.printStackTrace();
+                System.err.println("Error reading input: " + e.getMessage());
             }
         }
     }
@@ -36,8 +39,15 @@ public class SimpleShell {
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
             }
-//            wait for command to finish
+            // wait for command to finish
             process.waitFor();
+
+            // check for errors in the error stream
+            BufferedReader errorReader = new BufferedReader(new InputStreamReader(process.getErrorStream()));
+            String errorLine;
+            while ((errorLine = errorReader.readLine()) != null) {
+                System.err.println("Error: " + errorLine);
+            }
         } catch (IOException | InterruptedException e) {
             System.err.println("Error executing command: " + e.getMessage());
         }
