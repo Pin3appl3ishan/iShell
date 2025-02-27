@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ef30eb-c56b-47b9-9463-9bfe04b9a254" name="Changes" comment="feat: run external commands that take arguments">
+    <list default="true" id="c1ef30eb-c56b-47b9-9463-9bfe04b9a254" name="Changes" comment="feat: implement cd and pwd command along with error handling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ccsh/SimpleShell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ccsh/SimpleShell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -57,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740689262122</updated>
       <workItem from="1740689263181" duration="530000" />
-      <workItem from="1740689815026" duration="5492000" />
+      <workItem from="1740689815026" duration="6623000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;initial">
       <option name="closed" value="true" />
@@ -99,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740696316764</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: implement cd and pwd command along with error handling">
+      <option name="closed" value="true" />
+      <created>1740697168561</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740697168561</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +130,11 @@
     <MESSAGE value="add process builder" />
     <MESSAGE value="handle error msg for unknown commands" />
     <MESSAGE value="feat: run external commands that take arguments" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: run external commands that take arguments" />
+    <MESSAGE value="feat: implement cd and pwd command along with error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implement cd and pwd command along with error handling" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
