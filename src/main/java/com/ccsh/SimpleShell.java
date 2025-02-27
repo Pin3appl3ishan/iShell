@@ -29,8 +29,17 @@ public class SimpleShell {
 
     private static void executeCommand(String command) {
         try {
+            String[] commandParts = command.split(" ");
             ProcessBuilder processBuilder = new ProcessBuilder();
-            processBuilder.command("cmd.exe", "/c", command);
+
+            // set command and it's arguments
+            processBuilder.command("cmd.exe", "/c", commandParts[0]);
+
+            // add arguments to the command
+            for (int i = 1; i < commandParts.length; i++) {
+                processBuilder.command().add(commandParts[i]);
+            }
+
             Process process = processBuilder.start();
 
             // read output from the command

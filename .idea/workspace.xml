@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ef30eb-c56b-47b9-9463-9bfe04b9a254" name="Changes" comment="add process builder">
+    <list default="true" id="c1ef30eb-c56b-47b9-9463-9bfe04b9a254" name="Changes" comment="handle error msg for unknown commands">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ccsh/SimpleShell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ccsh/SimpleShell.java" afterDir="false" />
     </list>
@@ -57,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740689262122</updated>
       <workItem from="1740689263181" duration="530000" />
-      <workItem from="1740689815026" duration="3933000" />
+      <workItem from="1740689815026" duration="4540000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;initial">
       <option name="closed" value="true" />
@@ -83,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740692070333</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="handle error msg for unknown commands">
+      <option name="closed" value="true" />
+      <created>1740695523266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740695523266</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +112,7 @@
     <MESSAGE value="&#10;initial" />
     <MESSAGE value="shell executes exit command" />
     <MESSAGE value="add process builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add process builder" />
+    <MESSAGE value="handle error msg for unknown commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="handle error msg for unknown commands" />
   </component>
 </project>
