@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ef30eb-c56b-47b9-9463-9bfe04b9a254" name="Changes" comment="feat: implement cd and pwd command along with error handling" />
+    <list default="true" id="c1ef30eb-c56b-47b9-9463-9bfe04b9a254" name="Changes" comment="stop tracking workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740689262122</updated>
       <workItem from="1740689263181" duration="530000" />
-      <workItem from="1740689815026" duration="7369000" />
+      <workItem from="1740689815026" duration="7940000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;initial">
       <option name="closed" value="true" />
@@ -105,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740697168561</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="stop tracking workspace.xml">
+      <option name="closed" value="true" />
+      <created>1740699639170</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740699639170</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +137,8 @@
     <MESSAGE value="handle error msg for unknown commands" />
     <MESSAGE value="feat: run external commands that take arguments" />
     <MESSAGE value="feat: implement cd and pwd command along with error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implement cd and pwd command along with error handling" />
+    <MESSAGE value="stop tracking workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="stop tracking workspace.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
